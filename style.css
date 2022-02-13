@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
 }
@@ -17,7 +17,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 75%;
-    background-color: red;
     
     
     
@@ -27,7 +26,6 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
     
   
   
@@ -39,7 +37,7 @@ body{
     margin-top: 30px;
     position: absolute;
     display: flex;
-    width: 90%;
+    width: 95%;
     
     align-items: center;
     background-color:transparent;
