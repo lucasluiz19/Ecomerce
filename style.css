@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: red;
+    
+    
+    
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+  
+  
+    background-color:  #E5E5E5;
+
+}
+.menu_nav{
+   
+    margin-top: 30px;
+    position: absolute;
+    display: flex;
+    width: 90%;
+    
+    align-items: center;
+    background-color:transparent;
+    justify-content: space-between;
+    
+}
+.link_nav{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.form{
+    
+    padding-top: 3px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+.form button{
+    cursor: pointer;
+    padding: 5px;
+    background: transparent;
+    border: none;
+}
+.form input{
+    
+    font-family: 'Roboto',sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    outline: none;
+    border: none;
+    
+}
+.content_esq{
+    width: 38%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+.compra{
+    display: flex;
+    flex-direction: column;
+    
+    width:60%;
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.descricao{
+font-family:'Roboto',sans-serif ;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #9C9696;
+margin-bottom: 21px;
+}
+.valor{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.botao{
+    background-color: red;
+    color: white;
+    width:70% ;
+    height:90px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.content_dir{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:  #C4C4C4;
+    justify-content: center;
+    align-items: center;
+ }
+ #tenis_amp{
+   margin-top: 100px;
+ }
+.carrocel{
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#img{
+    border-bottom: 5px solid red;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 24rem;
+}
+.explore a{
+    color: white;
+    text-decoration: none;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.explore img{
+    margin-left: 10px;
+}
+.esq{
+    display: flex;
+    align-items: center;
+}
+.esq iframe{
+    margin-right: 47px;
+}
+.redes{
+    
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 80px;
+}
+.explore:hover{
+    background-color: rgba(0, 110, 255, 0.747) ;
+    
+}
+.explore a:hover{
+    color: black;
+}
+.redes:hover{
+    color: rgba(0, 110, 255, 0.747);
+    border-bottom: 3px solid red;
+}
+.menu_nav a:hover{
+    font-size: 30px;
+    color: red;
+    padding-left: 30px;
+
+}
+.carrocel img:hover{
+    border-radius: 25px;
+    border-bottom: 5px solid red;
+    cursor: pointer;
+}
+.botao:hover{
+    border-radius: 8px;
+
+}
